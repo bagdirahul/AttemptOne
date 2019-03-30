@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="E2ESuiteAttempt1">
+
+  <test name="E2EAttempt1">
+    <classes>
+      <class name="firstattempt.E2E"/>
+    </classes>
+  </test>
+</suite>

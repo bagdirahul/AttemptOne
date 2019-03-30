@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [E2ESuiteAttempt1]">
+  <test thread-count="5" name="E2EAttempt1(failed)">
+    <classes>
+      <class name="firstattempt.E2E">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="GoogleTitle"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- firstattempt.E2E -->
+    </classes>
+  </test> <!-- E2EAttempt1(failed) -->
+</suite> <!-- Failed suite [E2ESuiteAttempt1] -->
